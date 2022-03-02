@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: white;
+    font-size: 3.5rem;
+    font-family: cursive;
+    margin-bottom: 8%;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-image: url("https://media2.giphy.com/media/yyPobjZJ0sk5W/giphy.gif?cid=790b761122679a9f510123590b06cf9507557c5405f415d1&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+}
+
+.form-data {
+    text-align: center;
+    padding: 25%;
+}
+
+.entrybox {
+    padding: 5%;
+    margin-bottom: 8%;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+.btn {
+    background: #9bcbeb;
+    background-image: -webkit-linear-gradient(top, #9bcbeb, #99bdd4);
+    background-image: -moz-linear-gradient(top, #9bcbeb, #99bdd4);
+    background-image: -ms-linear-gradient(top, #9bcbeb, #99bdd4);
+    background-image: -o-linear-gradient(top, #9bcbeb, #99bdd4);
+    background-image: linear-gradient(to bottom, #9bcbeb, #99bdd4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #71b1d9;
+    background-image: -webkit-linear-gradient(top, #71b1d9, #a6c9e0);
+    background-image: -moz-linear-gradient(top, #71b1d9, #a6c9e0);
+    background-image: -ms-linear-gradient(top, #71b1d9, #a6c9e0);
+    background-image: -o-linear-gradient(top, #71b1d9, #a6c9e0);
+    background-image: linear-gradient(to bottom, #71b1d9, #a6c9e0);
+    text-decoration: none;
+}
+
+@media (max-width:500px) {
+    body {
+        margin-top: 10%;
+    }
+    .heading {
+        color: white;
+        font-size: 1.5rem;
+        font-family: cursive;
+        margin-bottom: 28%;
+    }
+    .container {
+        width: 350px;
+        height: 400px;
+    }
+    .entrybox {
+        padding: 5%;
+        margin: 35% 0;
+        border-radius: 15px;
+    }
+    .form-data {
+        text-align: center;
+        padding: 25%;
+    }
+}
